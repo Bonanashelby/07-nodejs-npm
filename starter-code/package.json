@@ -1,0 +1,15 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "Pair programming Anna and Scott ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Anna and Scott",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
