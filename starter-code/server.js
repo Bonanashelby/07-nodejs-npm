@@ -15,7 +15,6 @@ app.use(express.static('./public'));
 
 app.get('*', function(request, response) {
   // DONE: Using the response object, send the index.html file back to the user
-  console.log('Scott What is up you?');
   response.sendFile('public/index.html', {root: '.'});
 });
 
